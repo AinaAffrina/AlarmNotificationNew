@@ -74,7 +74,7 @@ public class AlarmNotificationService extends IntentService {
 
         NotificationCompat.Builder alamNotificationBuilder = new NotificationCompat.Builder(
 
-                this).setContentTitle("Alarm").setSmallIcon(R.mipmap.ic_launcher_round)
+                this).setContentTitle("Alarm").setSmallIcon(R.mipmap.notification_icon)
 
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(msg))
 

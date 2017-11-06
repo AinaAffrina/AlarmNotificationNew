@@ -38,7 +38,7 @@ public class AlarmSoundService extends Service {
 
         //Start media player
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.r2d2);
+        mediaPlayer = MediaPlayer.create(this, R.raw.minion);
 
         mediaPlayer.start();
 
